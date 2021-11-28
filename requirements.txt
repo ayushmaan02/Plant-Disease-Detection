@@ -1,9 +1,5 @@
-flask
-gunicorn
-flask-cors
-pickle
-Pillow
-python-decouple
-torch==1.10.0+cpu 
-torchvision==0.11.1+cpu
-torchaudio==0.10.0+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
+Flask==2.0.2
+Flask_Cors==3.0.10
+Pillow==8.4.0
+torch==1.10.0
+torchvision==0.11.1
