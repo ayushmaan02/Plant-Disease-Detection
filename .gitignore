@@ -134,3 +134,4 @@ dl-model/dataset/*
 #pth model files
 
 dl-model/model002*.pth
+dl-model/disease_dataset

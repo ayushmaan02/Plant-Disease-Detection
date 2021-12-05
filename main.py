@@ -32,5 +32,10 @@ def predict():
 	return response
 
 
+@app.route('/', methods=['GET'])
+def main():
+	return "Plant Disease Detection by Team SkyDocs, https://github.com/SkyDocs/Plant-Disease-Detection"
+
+
 if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=8080)
